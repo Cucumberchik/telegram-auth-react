@@ -2,7 +2,7 @@ import "./App.css";
 import TelegramLoginButton from "./components/TelegramButton";
 
 function App() {
-  let name = "TelegramAuthBot"; // Это имя бота который вы ранее создавали в BotFather
+  let name = "ReactAuth_bot"; // Это имя бота который вы ранее создавали в BotFather
   const handleBot = (user: any) => {
     console.log(user);
   };
